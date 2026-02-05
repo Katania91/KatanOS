@@ -25,7 +25,7 @@ The original planned scope is complete, and the codebase is now available for an
 
 Complete documentation is available on GitBook:
 
-- **KatanOS GitBook:** `https://YOUR_GITBOOK_URL`
+- **KatanOS GitBook:** `https://docs.katania.me/`
 
 Use GitBook as the primary reference for architecture, modules, data model, Electron APIs, security, build, and release workflows.
 
