@@ -56,3 +56,5 @@ __pycache__/
 # Keep GitHub repository minimal: only root README markdown
 *.md
 !README.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
