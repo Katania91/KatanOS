@@ -1,0 +1,83 @@
+{
+  "name": "katanos",
+  "description": "A local-first ultimate productivity dashboard for managing agenda, finances, habits, contacts, and more.",
+  "author": "Katania",
+  "private": true,
+  "version": "1.0.9",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "electron:dev": "concurrently -k \"vite\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron:build": "vite build && electron-builder",
+    "electron:build:appx": "node scripts/build-appx.cjs"
+  },
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "chart.js": "^4.5.1",
+    "discord-rpc": "^4.0.1",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.12.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.1",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "electron": "^39.2.7",
+    "electron-builder": "^24.13.3",
+    "emoji-datasource": "^15.1.2",
+    "jsdom": "^27.4.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vitest": "^4.0.17",
+    "wait-on": "^8.0.2"
+  },
+  "build": {
+    "appId": "com.katanos.app",
+    "productName": "KatanOS",
+    "icon": "build-resources/icon.ico",
+    "files": [
+      "dist/**",
+      "electron/**",
+      "package.json"
+    ],
+    "directories": {
+      "buildResources": "build-resources"
+    },
+    "asar": true,
+    "win": {
+      "icon": "build-resources/icon.ico",
+      "target": [
+        "nsis",
+        "appx"
+      ]
+    },
+    "appx": {
+      "identityName": "YourPublisher.KatanOS",
+      "publisher": "CN=YOUR-PUBLISHER-CERTIFICATE-ID",
+      "publisherDisplayName": "YourPublisher",
+      "displayName": "KatanOS – Ultimate Productivity Dashboard",
+      "applicationId": "KatanOS",
+      "backgroundColor": "#0f172a",
+      "languages": [
+        "it-IT",
+        "en-US",
+        "fr-FR",
+        "es-ES",
+        "de-DE"
+      ]
+    }
+  }
+}

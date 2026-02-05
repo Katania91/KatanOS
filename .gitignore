@@ -1,0 +1,58 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and package managers
+node_modules/
+
+# Build and packaging output
+dist/
+dist-ssr/
+build/
+out/
+release/
+*.tsbuildinfo
+*.local
+*.tmp
+*.temp
+
+# Electron / installer artifacts
+*.exe
+*.msi
+*.appx
+*.appxbundle
+*.nupkg
+*.blockmap
+
+# Environment variables (API keys!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Backup files
+*.bak
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python cache (if local tooling/scripts are used)
+__pycache__/
+*.pyc
+
+# Keep GitHub repository minimal: only root README markdown
+*.md
+!README.md

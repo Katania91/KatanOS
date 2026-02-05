@@ -1,0 +1,7 @@
+{
+  "name": "Copy of KatanOS",
+  "description": "A futuristic personal organizer with intelligent dashboard, finance tracking, and AI-powered location assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
