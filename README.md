@@ -1,5 +1,7 @@
 # KatanOS
 
+![KatanOS](https://katania.me/images/KatanOS.webp)
+
 KatanOS is a local-first desktop productivity app built with Electron, React, and TypeScript.
 
 It combines everyday tools in a single application:
