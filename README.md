@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Local-first productivity desktop app built with Electron, React, and TypeScript.
+  <b>Local-first productivity desktop app built with Electron, React, and TypeScript.</b>
 </p>
 
 <p align="center">
@@ -20,11 +20,23 @@
   <a href="https://github.com/sponsors/katania91"><strong>Sponsor</strong></a>
 </p>
 
-## What Is KatanOS
+<p align="center">
+  Built to keep your life organized, not your data exposed.
+</p>
 
-KatanOS combines everyday productivity tools in one desktop app while keeping data local-first.
+## What KatanOS Is
 
-Core areas include:
+KatanOS combines core productivity workflows into one desktop app while keeping data ownership on your machine.
+
+## Why It Feels Different
+
+- local-first architecture, no required backend
+- desktop-native Electron bridge (`window.katanos`) for real filesystem workflows
+- encrypted vault with recovery flow
+- per-user backup/restore and export/import support
+- modular structure designed to be forked and extended
+
+## Modules At a Glance
 
 - dashboard
 - agenda and events
@@ -39,23 +51,31 @@ Core areas include:
 
 ## Project Status
 
-This repository is published as an open baseline of the project.
+This repository is published as a stable open baseline.
 
-The original planned scope is complete, and the codebase is now available for anyone who wants to fork it, extend it, or adapt it.
+The original scope has been shipped. The codebase is now available for anyone who wants to fork it, extend it, or adapt it.
 
 ## Documentation
 
-Use GitBook as the primary technical reference:
+The full technical documentation lives on GitBook:
 
-- [KatanOS Documentation (GitBook)](https://docs.katania.me/)
+- [docs.katania.me](https://docs.katania.me/)
 
-It covers architecture, modules, data model, Electron APIs, security, build, and release workflows.
+It covers architecture, modules, data model, Electron APIs, security, and release workflow.
 
 ## Quick Start
+
+Run in development:
 
 ```bash
 npm ci
 npm run electron:dev
+```
+
+Run tests:
+
+```bash
+npm run test
 ```
 
 Build desktop package:
@@ -66,9 +86,18 @@ npm run electron:build
 
 ## Metadata
 
-- Version: `1.0.9`
-- App ID: `com.katanos.app`
-- Microsoft Store ID: `9NBNSBD58DNL`
+| Key | Value |
+| --- | --- |
+| Version | `1.0.9` |
+| App ID | `com.katanos.app` |
+| Microsoft Store ID | `9NBNSBD58DNL` |
+
+## Support
+
+If KatanOS helped you, you can support ongoing work:
+
+- [GitHub Sponsors](https://github.com/sponsors/katania91)
+- [Ko-fi](https://ko-fi.com/katania91)
 
 ## License
 
