@@ -1,10 +1,30 @@
 # KatanOS
 
-![KatanOS](https://katania.me/images/KatanOS.webp)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-gitbook-3884FF)](https://docs.katania.me/)
+[![Sponsor](https://img.shields.io/badge/sponsor-support%20this%20project-EA4AAA)](https://github.com/sponsors/katania91)
 
-KatanOS is a local-first desktop productivity app built with Electron, React, and TypeScript.
+<p align="center">
+  <img src="https://katania.me/images/KatanOS.webp" alt="KatanOS" width="960" />
+</p>
 
-It combines everyday tools in a single application:
+<p align="center">
+  Local-first productivity desktop app built with Electron, React, and TypeScript.
+</p>
+
+<p align="center">
+  <a href="https://docs.katania.me/"><strong>Documentation</strong></a>
+  ·
+  <a href="https://katania.me/katanos"><strong>Website</strong></a>
+  ·
+  <a href="https://github.com/sponsors/katania91"><strong>Sponsor</strong></a>
+</p>
+
+## What Is KatanOS
+
+KatanOS combines everyday productivity tools in one desktop app while keeping data local-first.
+
+Core areas include:
 
 - dashboard
 - agenda and events
@@ -25,11 +45,11 @@ The original planned scope is complete, and the codebase is now available for an
 
 ## Documentation
 
-Complete documentation is available on GitBook:
+Use GitBook as the primary technical reference:
 
-- **KatanOS GitBook:** `https://docs.katania.me/`
+- [KatanOS Documentation (GitBook)](https://docs.katania.me/)
 
-Use GitBook as the primary reference for architecture, modules, data model, Electron APIs, security, build, and release workflows.
+It covers architecture, modules, data model, Electron APIs, security, build, and release workflows.
 
 ## Quick Start
 
@@ -54,4 +74,4 @@ npm run electron:build
 
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
 
-See `LICENSE` for details.
+See [LICENSE](LICENSE) for details.
