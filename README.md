@@ -11,19 +11,6 @@ Local-first productivity desktop app built with Electron, React, and TypeScript.
 
 Fork-friendly: feel free to rebrand and ship your own version. Please keep [LICENSE](LICENSE) and [NOTICE](NOTICE); [CITATION.cff](CITATION.cff) is provided for attribution.
 
-## Support
-
-If you find KatanOS useful, you can sponsor the project.
-
-- [GitHub Sponsors](https://github.com/sponsors/Katania91)
-- Monthly: $5 Supporter - helps cover code signing / CI / maintenance
-- Monthly: $25 Backer - optional name listed in [BACKERS.md](BACKERS.md)
-- One-time: $10 Tip Jar - thank you
-- One-time: $50 Backer - optional name listed in [BACKERS.md](BACKERS.md)
-- One-time: $200 Sponsor - optional company name listed in [BACKERS.md](BACKERS.md)
-
-No support SLA; sponsorship is a donation.
-
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-gitbook-3884FF)](https://docs.katania.me/)
 [![Sponsor](https://img.shields.io/badge/sponsor-support%20this%20project-EA4AAA)](https://github.com/sponsors/katania91)
@@ -90,6 +77,14 @@ It covers architecture, modules, data model, Electron APIs, security, and releas
 ## Forking
 
 If you want to create your own branded variant, see [FORKING.md](FORKING.md) for rebrand, build, and publish steps.
+
+## Sponsorship (optional)
+
+If KatanOS is useful to you, sponsorship helps sustain maintenance.
+- [GitHub Sponsors](https://github.com/sponsors/Katania91)
+- [Backers list](BACKERS.md)
+
+No support SLA; sponsorship is a donation.
 
 ## Contributing
 
