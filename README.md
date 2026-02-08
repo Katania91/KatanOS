@@ -63,6 +63,19 @@ The full technical documentation lives on GitBook:
 
 It covers architecture, modules, data model, Electron APIs, security, and release workflow.
 
+## Forking
+
+If you want to create your own branded variant, see [FORKING.md](FORKING.md) for rebrand, build, and publish steps.
+
+## Contributing
+
+For contributions and collaboration flow, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+For issue filing, use the templates:
+
+- [Bug report template](.github/ISSUE_TEMPLATE/bug_report.yml)
+- [Feature request template](.github/ISSUE_TEMPLATE/feature_request.yml)
+
 ## Quick Start
 
 Run in development:

@@ -1,0 +1,46 @@
+name: Feature request
+description: Propose an improvement or new capability
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share the user problem first, then the proposed solution.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What user problem are you trying to solve?
+      placeholder: Describe the pain point.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe your preferred approach.
+      placeholder: Explain the expected behavior and UI/UX flow.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: Any alternatives or tradeoffs considered.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define how we know this is done.
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+  - type: input
+    id: module
+    attributes:
+      label: Related module
+      placeholder: e.g. agenda, vault, finance, dashboard
