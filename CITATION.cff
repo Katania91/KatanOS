@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: KatanOS
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+authors:
+  - given-names: Kevin
+    family-names: Ricchiuto
+    alias: Katania91
+repository-code: "https://github.com/Katania91/KatanOS"
+url: "https://github.com/Katania91/KatanOS"
+license: Apache-2.0
+version: 1.0.9

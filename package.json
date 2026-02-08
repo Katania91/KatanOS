@@ -4,6 +4,7 @@
   "author": "Katania",
   "private": true,
   "version": "1.0.9",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "electron/main.cjs",
   "scripts": {

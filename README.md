@@ -1,6 +1,6 @@
 # KatanOS
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-gitbook-3884FF)](https://docs.katania.me/)
 [![Sponsor](https://img.shields.io/badge/sponsor-support%20this%20project-EA4AAA)](https://github.com/sponsors/katania91)
 
@@ -101,6 +101,12 @@ If KatanOS helped you, you can support ongoing work:
 
 ## License
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+Apache License 2.0.
 
 See [LICENSE](LICENSE) for details.
+
+## Attribution
+
+If you reuse this project, keep [LICENSE](LICENSE) and [NOTICE](NOTICE) intact and, if possible, credit the author in your About page or documentation.
+
+This is a social norm, not an additional legal requirement beyond Apache-2.0.
