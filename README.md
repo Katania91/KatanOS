@@ -51,7 +51,7 @@ Fork-friendly: feel free to rebrand and ship your own version. Please keep [LICE
   Built to keep your life organized, not your data exposed.
 </p>
 
-## What KatanOS Is
+## What KatanOS is
 
 KatanOS combines core productivity workflows into one desktop app while keeping data ownership on your machine.
 
