@@ -19,6 +19,22 @@ Fork-friendly: feel free to rebrand and ship your own version. Please keep [LICE
   <img src="https://katania.me/images/KatanOS.webp" alt="KatanOS" width="960" />
 </p>
 
+## Screenshots
+
+<p align="center">
+  <img src="https://katania.me/images/katanos-gallery-03.webp" alt="KatanOS dashboard overview" width="32%" />
+  <img src="https://katania.me/images/katanos-gallery-06.webp" alt="KatanOS calendar and agenda view" width="32%" />
+  <img src="https://katania.me/images/katanos-gallery-08.webp" alt="KatanOS tasks and planning workspace" width="32%" />
+</p>
+
+<details>
+  <summary>More screenshots</summary>
+  <p align="center">
+    <img src="https://katania.me/images/katanos-gallery-11.webp" alt="KatanOS finance and tracking module" width="49%" />
+    <img src="https://katania.me/images/katanos-gallery-13.webp" alt="KatanOS notes and journal interface" width="49%" />
+  </p>
+</details>
+
 <p align="center">
   <b>Local-first productivity desktop app built with Electron, React, and TypeScript.</b>
 </p>
